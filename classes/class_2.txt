@@ -1,0 +1,15 @@
+class: Table
+
+attributes:
+table_height (integer)
+number_of_seats (integer)
+table_cloth_color (string)
+table_wobbles (boolean)
+
+methods:
+raise_table_height (table_height + 1)
+lower_table_height (table_height - 1)
+add_seat (number_of_seats + 1)
+remove_seat (number_of_seats - 1)
+change_table_cloth (updates table_cloth_color)
+fix_wobble (table_wobbles = false)
