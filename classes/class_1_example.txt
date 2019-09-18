@@ -1,0 +1,16 @@
+object: Food and Thought
+
+attributes:
+gluten_free (false)
+vegan (true)
+number_of_items (20)
+daily_special (artichoke hearts)
+
+method results:
+add_new_item (21)
+remove_menu_item (20)
+update_daily_special (daily_special = stuffed cauliflower)
+add_animal_products (vegan = false)
+remove_all_animal_products (vegan = true)
+use_gluten (gluten_free = false)
+remove_all_gluten (gluten_free = true)
