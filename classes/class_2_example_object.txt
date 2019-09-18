@@ -1,0 +1,16 @@
+class: Table
+instance: Hi-Top
+
+attributes:
+table_height (100)
+number_of_seats (2)
+table_cloth_color (red)
+table_wobbles (true)
+
+methods:
+raise_table_height (101)
+lower_table_height (100)
+add_seat (3)
+remove_seat (2)
+change_table_cloth (table_cloth_color = Blue)
+fix_wobble (table_wobbles = false)
