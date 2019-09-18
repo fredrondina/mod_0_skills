@@ -1,0 +1,16 @@
+class menu
+
+attributes:
+gluten_free (boolean)
+vegan (boolean)
+number_of_items (integer)
+daily_special (string)
+
+methods:
+add_new_item (number_of_items + 1)
+remove_menu_item (number_of_items - 1)
+update_daily_special (changes daily_special)
+add_animal_products (vegan = false)
+remove_all_animal_products (vegan = true)
+use_gluten (gluten_free = false)
+remove_all_gluten (gluten_free = true)
